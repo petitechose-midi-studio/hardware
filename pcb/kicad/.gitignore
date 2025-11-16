@@ -1,0 +1,13 @@
+# KiCad
+*-backups/
+*thumbnail.svg
+*.kicad*.zip
+*_bom.csv
+drc_report*
+erc_report*
+#auto_saved_files#
+
+# KiCad temporary/lock files
+~*
+_autosave-*
+*.kicad_sch_old

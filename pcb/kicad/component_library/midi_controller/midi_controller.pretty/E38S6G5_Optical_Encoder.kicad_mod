@@ -1,0 +1,196 @@
+(footprint "E38S6G5_Optical_Encoder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "E38S6G5 Series Optical Rotary Encoder, 38mm diameter, 600 pulses/revolution")
+	(tags "optical encoder rotary incremental 38mm E38S6G5 600ppr")
+	(property "Reference" "ENC_OPT**"
+		(at 0 -21.2 0)
+		(layer "F.SilkS")
+		(uuid "8687db6d-e99d-48df-b17b-dcec8f1bfc5b")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(property "Value" "E38S6G5_Optical_Encoder"
+		(at 0.0254 21.2598 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95c7863d-f511-4887-85bb-ffc1bd5b9574")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b73e1268-8c8b-44a1-909b-3e120c6ea42f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd1c4a34-85c9-4691-9527-21f998e696fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -15 0)
+		(end -13 0)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9d029599-2c25-4020-a4c8-98e5f64652d4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e531c7bb-f42c-4b27-ada3-fe47a7d4b264")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 10 0)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a54cee4e-d54a-4892-a6e9-0bdbfcc0a756")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 20 0)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b9c7ca6b-f56e-49ee-82d6-940a8f048645")
+	)
+	(fp_circle
+		(center 7.5 -12.99)
+		(end 9.5 -12.99)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d63912b7-0508-4ae1-b483-c65e8262273e")
+	)
+	(fp_circle
+		(center 7.5 12.99)
+		(end 9.5 12.99)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d0aa627b-c607-47f0-9cb3-8480bc0e5ae3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 19.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "29f69bd8-0477-4bd8-a07e-1fc817c36d49")
+	)
+	(fp_line
+		(start -20 -20)
+		(end 20 -20)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "049d38c2-1828-4bd0-ab79-b27eb84e6e17")
+	)
+	(fp_line
+		(start -20 20)
+		(end -20 -20)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0bef535f-77e2-4dad-a355-d939a944c7a0")
+	)
+	(fp_line
+		(start 20 -20)
+		(end 20 20)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d63b5ace-7542-4374-b182-3d3bef9f368d")
+	)
+	(fp_line
+		(start 20 20)
+		(end -20 20)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "569e682b-2cb8-4c58-b81a-d43bc502a638")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 19 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cfe71478-41d0-40a9-a8ea-1b8dbab99122")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/component_library/Encoders/Optical_E38S6G5/OPTICAL_ENCODER.step"
+		(offset
+			(xyz 0 0 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
