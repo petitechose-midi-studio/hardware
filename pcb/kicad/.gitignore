@@ -11,3 +11,4 @@ erc_report*
 ~*
 _autosave-*
 *.kicad_sch_old
+.history/
