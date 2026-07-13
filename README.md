@@ -12,7 +12,7 @@ Open-source hardware design files for the MIDI Studio controller.
 
 - **MCU:** Teensy 4.1 (ARM Cortex-M7 @ 600 MHz)
 - **RAM:** 8 MB PSRAM (**mandatory** - soldered on underside pads)
-- **Display:** ILI9341 2.8" TFT (320x240, SPI 70 MHz)
+- **Display:** ILI9341 2.8" TFT (320x240, SPI)
 - **Encoders:**
   - 8x Bourns PEC11R rotary encoders (24 PPR, smooth, with push button)
   - 1x Bourns PEC11R rotary encoder (24 PPR, detented, with push button)
@@ -24,12 +24,12 @@ Open-source hardware design files for the MIDI Studio controller.
 ### Display Interface (SPI)
 
 - CS = Pin 28
-- DC = Pin 29
-- RST = Pin 30
+- DC = Pin 0
+- RST = Pin 29
 - MOSI = Pin 26
 - SCK = Pin 27
 - MISO = Pin 1
-- Speed: 70 MHz
+- Firmware-configured SPI speed: 50 MHz
 
 ### Power
 
