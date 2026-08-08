@@ -10,15 +10,15 @@ Open-source hardware design files for the MIDI Studio controller.
 
 ### Core Components
 
-- **MCU:** Teensy 4.1 (ARM Cortex-M7 @ 600 MHz)
+- **MCU:** Teensy 4.1 (ARM Cortex-M7; hardware rated up to 600 MHz, with MIDI Studio firmware configured at 450 MHz)
 - **RAM:** 8 MB PSRAM (**mandatory** - soldered on underside pads)
 - **Display:** ILI9341 2.8" TFT (320x240, SPI)
 - **Encoders:**
   - 8x Bourns PEC11R rotary encoders (24 PPR, smooth, with push button)
   - 1x Bourns PEC11R rotary encoder (24 PPR, detented, with push button)
   - 1x E38S6G5 optical encoder (600 PPR, high-resolution)
-- **Buttons:** 15x tactile buttons (6x panel-mounted + 9x via multiplexer)
-- **Multiplexer:** CD74HC4067 (16-channel analog multiplexer)
+- **Button inputs:** 15 total (6x panel tactile switches + 8x macro-encoder push switches through the multiplexer, plus the NAV encoder push directly on MCU pin 32)
+- **Multiplexer:** CD74HC4067 (16-channel analog multiplexer; 14 button inputs used)
 - **Connectivity:** USB MIDI (USB-B connector)
 
 ### Display Interface (SPI)
@@ -114,7 +114,7 @@ Includes:
 | Rotary Encoder (detented) | 1 | Bourns PEC11R-4220K-S0024 | 24 PPR + button |
 | Optical Encoder | 1 | E38S6G5 | 600 PPR |
 | Tactile Buttons (panel) | 6 | 6mm tactile switch | Panel-mounted |
-| Tactile Buttons (PCB) | 9 | 6mm tactile switch | PCB-mounted |
+| Encoder push switches (integrated) | 9 | Included with PEC11R encoders | 8 macro pushes via multiplexer; NAV push direct on MCU pin 32 |
 | CD74HC4067 | 1 | CD74HC4067 | Multiplexer IC |
 | USB-B Connector | 1 | Standard USB-B | Chassis-mounted |
 
